@@ -386,8 +386,8 @@ body.nav-active { overflow: hidden; }
   -webkit-mask-position: center;
   mask-size: auto;
   -webkit-mask-size: auto;
-  border-radius: 22vw;
-  width: 35vw;
+  border-radius: 100vw;
+  /* width: 35vw; */
 }
 
 .hero .shape {
@@ -491,9 +491,13 @@ body.nav-active { overflow: hidden; }
   text-transform: uppercase;
 }
 
-.project-card .card-title { margin-block: 16px; font-size: 1.7vw;}
+.project-card .card-title { margin-block: 16px; 
+  /* font-size: 1.7vw; */
+}
 
-.project-card .card-text { margin-block-end: 20px; font-size: 1.1vw; }
+.project-card .card-text { margin-block-end: 20px; 
+  /* font-size: 1.1vw;  */
+}
 
 .project-card .btn-text {
   display: flex;
