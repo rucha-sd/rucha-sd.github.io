@@ -10,13 +10,13 @@
     - primary meta tags
   -->
   <title>Rucha Deshpande</title>
-  <meta name="title" content="Rucha - I'm User Interface Designer & Developer.">
-  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+  <meta name="title" content="Rucha Deshpande">
+  <!-- <meta name="description" content="This is a personal portfolio html template made by codewithsadee"> -->
 
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
 
   <!-- 
     - google font link
@@ -38,6 +38,7 @@
 
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -85,7 +86,7 @@
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Contact</a>
+            <a href="#contact" class="navbar-link">Contact</a>
           </li>
 
         </ul>
@@ -99,22 +100,22 @@
         <ul class="social-list">
 
           <li>
-            <a href="https://www.linkedin.com/in/rucha-sd" class="social-link">
+            <a href="https://www.linkedin.com/in/rucha-sd" class="social-link" target="_blank">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="https://github.com/rucha-sd" class="social-link">
+            <a href="https://github.com/rucha-sd" class="social-link" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
-          <li>
-            <a href="mailto:rucha.d2000@gmail.com" class="social-link">
+          <!-- <li>
+            <a href="mailto:rucha.d2000@gmail.com" class="social-link" target="_blank">
               <ion-icon name="mail"></ion-icon>
             </a>
-          </li>
+          </li> -->
 
           <!-- <li>
             <a href="#" class="social-link">
@@ -177,7 +178,7 @@
             <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
               <a href="#" class="btn btn-primary">Resume</a>
 
-              <a href="#" class="btn btn-secondary">Contact Me</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
             </div>
 
           </div>
@@ -598,7 +599,7 @@
                     based on neural network predictions of cost-to-goal. Enhanced the path planning efficiency and success rate by incorporating 
                     neural network predictions into the traditional RRT* algorithm, improving the algorithm’s 
                     performance in complex 3D environments.  Successfully increased the success rate by 5%, reduced planning time by 35%, 
-                    and achieved a 4% reduction in path costs
+                    and achieved a 4% reduction in path costs.
                   </p>
 
                   <a href="https://github.com/rucha-sd/CS593_rob_project" class="btn-text" style="color: #7cb798">
@@ -662,7 +663,7 @@
         - #CONTACT
       -->
 
-      <section class="section contact" aria-label="contact">
+      <section class="section contact" aria-label="contact" id="contact">
         <div class="container">
 
           <div class="contact-card">
@@ -682,19 +683,13 @@
 
             </div>
 
-            <form action="" class="contact-form" data-reveal="right">
+            <div class="grid-list">
+              <a href="mailto:rucha.d2000@gmail.com" class="btn btn-primary"><i class="fa fa-envelope"></i> rucha.d2000@gmail.com</a>
+              <a href="https://www.linkedin.com/in/rucha-sd/" class="btn btn-primary" target="_blank"><i class="fa fa-linkedin-square"></i> rucha-sd</a>
+              <!-- <a href="#" class="btn btn-primary">Resume</a> -->
+            </div>
 
-              <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Name *" required class="input-field">
-
-                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
-              </div>
-
-              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
-
-              <button type="submit" class="btn btn-secondary">Send message</button>
-
-            </form>
+            
 
           </div>
 
@@ -722,24 +717,24 @@
       <ul class="social-list">
 
         <li>
-          <a href="https://www.linkedin.com/in/rucha-sd" class="social-link">
+          <a href="https://www.linkedin.com/in/rucha-sd" class="social-link" target="_blank">
             <ion-icon name="logo-linkedin"></ion-icon>
           </a>
         </li>
 
         <li>
-          <a href="https://github.com/rucha-sd" class="social-link">
+          <a href="https://github.com/rucha-sd" class="social-link" target="_blank">
             <ion-icon name="logo-github"></ion-icon>
           </a>
         </li>
 
-        <li>
+        <!-- <li>
           <a href="mailto:rucha.d2000@gmail.com" class="social-link">
             <ion-icon name="mail"></ion-icon>
           </a>
-        </li>
+        </li> -->
 
-        <li>
+        <!-- <li>
           <a href="#" class="social-link">
             <ion-icon name="logo-instagram"></ion-icon>
           </a>
@@ -749,7 +744,7 @@
           <a href="#" class="social-link">
             <ion-icon name="logo-youtube"></ion-icon>
           </a>
-        </li>
+        </li> -->
 
       </ul>
 
